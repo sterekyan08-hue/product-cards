@@ -1,0 +1,62 @@
+@import "noneStyle";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    padding: 100px;
+}
+
+.main {
+    width: 980px;
+    height: 460px;
+    background-color: #242424;
+    display: flex;
+    gap: 20px;
+    padding: 20px ;
+}
+
+.main__card {
+    flex: 1;
+    padding: 16px;
+    display: flex;
+  flex-direction: column;
+  background-color: #0F172A;
+  border-radius: 20px;
+}
+.photo {
+    border-radius: 16px;
+}
+.name {
+    font-weight: 600;
+font-size: 22px;
+color: #fff;
+margin-bottom: 8px;
+}
+.description {
+    font-weight: 400;
+font-size: 16px;
+line-height: 138%;
+color: #94a3b8;
+margin-bottom: 12px;
+}
+.card__price {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.price {
+    font-weight: 700;
+font-size: 20px;
+color: #fff;
+}
+.buy {
+    border-radius: 12px;
+padding: 4px 16px;
+width: 89px;
+height: 37px;
+background: #3b82f6;
+font-weight: 600;
+font-size: 16px;
+color: #fff;
+}
